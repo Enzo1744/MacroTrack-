@@ -3,3 +3,5 @@
 .date-label{text-align:center}input[type=date]{display:block;text-align:center;min-height:48px;-webkit-appearance:none;appearance:none}input[type=date]::-webkit-date-and-time-value{text-align:center;width:100%;margin:0}input[type=date]::-webkit-datetime-edit{display:inline-block;text-align:center}
 
 button.danger{color:#ff9b9b;border-color:#754545}.item:has([data-remove-food]){flex-wrap:wrap}.item:has([data-remove-food])>div{flex:1 1 100%;overflow-wrap:anywhere}
+
+#fraction-controls[hidden]{display:none}.fraction-buttons{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:5px;margin:8px 0}.fraction-buttons button{padding:10px 0;min-width:0;font-size:16px}.fraction-buttons button[aria-pressed="true"]{background:#72e5a0;color:#101512;border-color:#72e5a0}
