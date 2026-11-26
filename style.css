@@ -5,3 +5,4 @@
 button.danger{color:#ff9b9b;border-color:#754545}.item:has([data-remove-food]){flex-wrap:wrap}.item:has([data-remove-food])>div{flex:1 1 100%;overflow-wrap:anywhere}
 
 #fraction-controls[hidden]{display:none}.fraction-buttons{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:5px;margin:8px 0}.fraction-buttons button{padding:10px 0;min-width:0;font-size:16px}.fraction-buttons button[aria-pressed="true"]{background:#72e5a0;color:#101512;border-color:#72e5a0}
+.picklist{display:grid;gap:6px;max-height:240px;overflow-y:auto;margin:10px 0}.picklist button{text-align:left;padding:10px 12px}.picklist button small{display:block;font-weight:400;margin-top:3px}.picklist button[aria-pressed=true]{border-color:#72e5a0;background:#243c2e}.fraction-buttons{grid-template-columns:repeat(5,minmax(0,1fr))}main{padding-bottom:calc(140px + env(safe-area-inset-bottom))}
